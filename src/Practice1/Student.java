@@ -11,7 +11,7 @@ public class Student {
         this.id = id_gen++;
     }
 
-    Student(int id, String name, String surname){ //parametrized constructor
+    Student(String name, String surname){ //parametrized constructor
         this(); //calling the empty constructor above (8-10 lines)
         setName(name);
         setSurname(surname);
